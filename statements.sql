@@ -67,7 +67,7 @@ SELECT COUNT(*) FROM usuarios_lenguajes WHERE lenguaje = 'Python';
 -- Ejercicio 17: Seleccionar los usuarios y sus lenguajes asociados, si tienen alguno, ordenados por nombre de usuario.
 -- Tu respuesta aquí
 
-
+SELECT nombre, apellido, lenguaje FROM usuarios_lenguajes WHERE lenguaje IS NOT NULL ORDER BY nombre;
 
 -- Ejercicio 18: Encontrar los usuario con el email que contiene la palabra 'example'.
 -- Tu respuesta aquí
